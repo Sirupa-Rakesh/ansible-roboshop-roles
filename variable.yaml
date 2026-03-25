@@ -5,9 +5,9 @@
 
   vars:
     name: "vavillala ishan"
-    girlfriend_name: "priya  I LOVE U"
+    sister_name: "priya"
 
   tasks:
     - name: print variables
       ansible.builtin.debug:
-        msg: "name is: {{ name }}, girlfriend name {{ girlfriend_name }}"
+        msg: "name is: {{ name }}, sister_name {{ sister_name }}"
